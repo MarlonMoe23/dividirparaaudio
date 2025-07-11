@@ -36,8 +36,8 @@ export default function Home() {
   const splitText = () => {
     if (!text.trim()) return;
     const textContent = text.trim();
-    const chunkSize = 4000; // 4000 caracteres
-    const overlap = 20; // 20 caracteres
+    const chunkSize = 5000; // 5000 caracteres
+    const overlap = 30; // 30 caracteres
     const chunks = [];
 
     for (let i = 0; i < textContent.length; i += chunkSize - overlap) {
@@ -91,7 +91,7 @@ export default function Home() {
           textAlign: "center",
           fontWeight: "600"
         }}>
-          Dividir texto en partes
+          Dividir texto en partes para Speechelo
         </h1>
 
         <div style={{ marginBottom: 25 }}>
