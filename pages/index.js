@@ -36,7 +36,7 @@ export default function Home() {
   const splitText = () => {
     if (!text.trim()) return;
     const textContent = text.trim();
-    const chunkSize = 5000; // 5000 caracteres
+    const chunkSize = 4970; // 4970 caracteres
     const overlap = 30; // 30 caracteres
     const chunks = [];
 
